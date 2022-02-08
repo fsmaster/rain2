@@ -1,3 +1,12 @@
+#iter calculation:
+#10 -27mb
+#100 - 270mb
+#1000 - 2,7gb
+#10000 - 27gb
+#100000 - 270gb
+#1000000 - 2,7tb
+
+
 import numpy as np
 import pandas as pd
 
