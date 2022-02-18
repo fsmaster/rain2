@@ -70,12 +70,12 @@ chunk=10000000
 #except:
 #	pass
 
-tm1 = [1,17,20,52,54]
-t0_hist = [11,16,23,24,30]
+t0_hist = [2,4,15,21,63]
+tm1 = [11,16,23,24,30]
 predict=[[],[]]
 candidates = pd.DataFrame(columns = ['tm1_b1', 'tm1_b2', 'tm1_b3', 'tm1_b4', 'tm1_b5', 't0_b1', 't0_b2', 't0_b3', 't0_b4', 't0_b5', 'tp1_b1', 'tp1_b2', 'tp1_b3', 'tp1_b4', 'tp1_b5'])
 
-for it in range(0,iterations):
+for it in range(4321,iterations):
 # repeat, advance the bitgen by 1
 	logging.info ("MEGAtest4 iteration " +str(it))
 	bitgen = np.random.PCG64(seed=0).advance(round(chunk*it/2))
